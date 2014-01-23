@@ -1,0 +1,48 @@
+{
+  "name": "docpad-plugin-iconmonstr",
+  "version": "2.0.15",
+  "description": "Eco iconmonstr SVG Funcs for Docpad via getBlock codes.",
+  "homepage": "https://github.com/mikeumus/docpad-plugin-iconmonstr.git",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "iconmonstr",
+    "svg", "svg icon", "svgs", "icons"
+  ],
+  "author": {
+    "name": "MDM Inc",
+    "email": "sales@mdm.cc",
+    "url": "http://mdm.cm"
+  },
+  "maintainers": [
+    {
+      "name": "Michael Mooring",
+      "email": "mike@mdm.cm",
+      "url": "http://mdm.cm"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Michael Mooring",
+      "email": "mike@mdm.cm",
+      "url": "http://mdm.cm"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/mikeumus/docpad-plugin-iconmonstr.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeumus/docpad-plugin-iconmonstr.git"
+  },
+  "engines": {
+    "node": ">=0.8.x",
+    "docpad": ">=6.x"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "main": "./iconmonstr.plugin.coffee",
+  "readmeFilename": "README.md",
+  "_id": "docpad-plugin-iconmonstr@2.0.0",
+  "_from": "docpad-plugin-iconmonstr@"
+}
