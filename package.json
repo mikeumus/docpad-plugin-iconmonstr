@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-iconmonstr",
-  "version": "2.0.15",
+  "version": "2.0.16",
   "description": "Eco iconmonstr SVG Funcs for Docpad via getBlock codes.",
   "homepage": "https://github.com/mikeumus/docpad-plugin-iconmonstr.git",
   "keywords": [
