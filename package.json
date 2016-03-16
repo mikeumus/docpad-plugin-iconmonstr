@@ -1,31 +1,44 @@
 {
   "name": "docpad-plugin-iconmonstr",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "description": "Eco iconmonstr SVG Funcs for Docpad via getBlock codes.",
   "homepage": "https://github.com/mikeumus/docpad-plugin-iconmonstr.git",
+  "license": {
+    "type": "MIT"
+  },
   "keywords": [
     "docpad",
     "docpad-plugin",
     "iconmonstr",
     "svg", "svg icon", "svgs", "icons"
   ],
-  "author": {
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "npmdownloads": true,
+    "david": true,
+    "daviddev": true,
+    "gratipay": "docpad",
+    "paypal": "QB8GQPZAH84N6",
+    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a"
+  },
+   "author": {
     "name": "MDM Inc",
-    "email": "sales@mdm.cc",
-    "url": "http://mdm.cm"
+    "email": "mike@mdm.cc",
+    "url": "https://mdm.cc"
   },
   "maintainers": [
     {
       "name": "Michael Mooring",
-      "email": "mike@mdm.cm",
-      "url": "http://mdm.cm"
+      "email": "mike@mdm.cc",
+      "url": "https://mdm.cc"
     }
   ],
   "contributors": [
     {
       "name": "Michael Mooring",
-      "email": "mike@mdm.cm",
-      "url": "http://mdm.cm"
+      "email": "mike@mdm.cc",
+      "url": "https://mdm.cc"
     }
   ],
   "bugs": {
@@ -39,10 +52,20 @@
     "node": ">=0.8.x",
     "docpad": ">=6.x"
   },
+  "peerDependencies": {
+    "docpad": "6"
+  },
   "dependencies": {},
-  "devDependencies": {},
-  "main": "./iconmonstr.plugin.coffee",
-  "readmeFilename": "README.md",
-  "_id": "docpad-plugin-iconmonstr@2.0.0",
-  "_from": "docpad-plugin-iconmonstr@"
+  "devDependencies": {
+    "docpad": "6",
+    "coffee-script": "^1.9.1",
+    "projectz": "^0.5.0"
+  },
+  "main": "./out/iconmonstr.plugin.js",
+  "scripts": {
+    "test": "node ./out/iconmonstr.test.js"
+  },
+  "cakeConfiguration": {
+    "COFFEE_SRC_PATH": "src"
+  }
 }
