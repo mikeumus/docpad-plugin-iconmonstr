@@ -71,9 +71,12 @@ These amazing people are maintaining this project:
 
 ## License
 
+Iconmonstr icon art license at: http://iconmonstr.com/license/
+By using these icons you agree to iconmonstr.com's above linked license. 
+
 Unless stated otherwise all works are:
 
-- Copyright &copy; [object Object]
+- Copyright &copy; Mass Distribution Media
 
 and licensed under:
 
